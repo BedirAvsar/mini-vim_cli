@@ -68,24 +68,6 @@ system-level software.
 
 ---
 
-## Project Structure
-
-```text
-mini-vim/
-├── include/
-│   ├── editor.h    # Editor state and core functions
-│   ├── input.h     # Keyboard input handling
-│   ├── buffer.h    # Text buffer and rows
-│   └── syntax.h    # Planned (future feature)
-├── src/
-│   ├── main.c
-│   ├── editor.c
-│   ├── input.c
-│   └── buffer.c
-├── tests/
-├── Makefile
-└── README.md
-
 ## Build and Run
 
 Requirements:
@@ -120,3 +102,21 @@ What I Learned
 	•	How text editors manage internal state
 	•	How to structure a medium-sized C project
 	•	How to work closer to the operating system
+
+## Project Structure
+
+```text
+mini-vim/
+├── include/
+│   ├── editor.h    # Editor state and core functions
+│   ├── input.h     # Keyboard input handling
+│   ├── buffer.h    # Text buffer and rows
+│   └── syntax.h    # Planned (future feature)
+├── src/
+│   ├── main.c
+│   ├── editor.c
+│   ├── input.c
+│   └── buffer.c
+├── tests/
+├── Makefile
+└── README.md
