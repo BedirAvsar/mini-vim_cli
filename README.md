@@ -134,6 +134,14 @@ CTRL + X
 ```
 
 ---
+## Run with Docker
+
+```bash
+docker build -t mini-vim .
+docker run -it mini-vim
+```
+
+This project uses a multi-stage Docker build to produce a small, clean runtime image containing only the compiled binary.
 
 ## Project Structure
 
